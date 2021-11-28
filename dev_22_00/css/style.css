@@ -1,0 +1,21 @@
+
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 10px solid pink;
+  box-shadow: 10px 10px 10px black;
+}
+
+.a {
+ background-color: royalblue;
+ color: red;
+}
+
+.b {
+  background-color: sandybrown;
+  text-align: center;
+  color: white;
+}
+
