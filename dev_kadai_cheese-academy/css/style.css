@@ -35,6 +35,17 @@ img{
   margin: 0 0 30px; 
  }
 
+/* header */
+.nav-list{
+  display: flex;
+}
+
+.nav-item{
+  width: 33.3333%;
+}
+
+
+
 /* About */
 .profile-wrapper{
   width: 720px;
@@ -61,6 +72,11 @@ img{
 
 .about__3{
   line-height: 2;
+}
+
+.about__images{
+  display: flex;
+  justify-content: center;
 }
 
 /* course */
