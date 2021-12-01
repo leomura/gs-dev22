@@ -14,25 +14,29 @@
     
     
 
-    <header>
-      <h1><img src="/Users/user/Desktop/gs-dev22/dev_kadai_cheese-academy/img/header_logo.png" alt="Cheese Academyのロゴ"></h1>
-
-      <nav>
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#about">ABOUT</a></li>
-          <li class="nav-item"><a href="#course">COURSE</a></li>
-          <li class="nav-item"><a href="#news">NEWS</a></li>
-          <li class="nav-item"><a href="#access">ACCESS</a></li>
-          <li class="nav-item"><a href="#contact">CONTACT</a></li>
-        </ul>
-        
-      </nav>
+    <header class="header">
+      <div class="header__wrapper">
+        <h1>
+          <a href="#"><img src="/Users/user/Desktop/gs-dev22/dev_kadai_cheese-academy/img/header_logo.png" alt="Cheese Academyのロゴ"></a>
+        </h1>
+        <nav>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#about">ABOUT</a></li>
+            <li class="nav-item"><a href="#course">COURSE</a></li>
+            <li class="nav-item"><a href="#news">NEWS</a></li>
+            <li class="nav-item"><a href="#access">ACCESS</a></li>
+            <li class="nav-item"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     
     
     <main>
       <section>
-        <img src="/Users/user/Desktop/gs-dev22/dev_kadai_cheese-academy/img/mainbg.png" alt="ピザの画像">
+        <div class="title-images">
+          <img src="/Users/user/Desktop/gs-dev22/dev_kadai_cheese-academy/img/mainbg.png" alt="ピザの画像">
+        </div>
         <div class="site-title">
           <p class="main-title">セカイを変えるチーズを作ろう</p>
           <p class="sub-title">チーズ職人養成学校「チーズアカデミーTOKYO」</p>
@@ -60,80 +64,111 @@
 
       <section>
         <h2 class="section-title" id="course">Course</h2>
-        <p>未経験からでもスタートができるよう、カリキュラムは多くの専門家や<br>現役チーズ職人のアドバイスのもと、作られました。</p>
-        
-        <img src="/Users/user/Desktop/gs-dev22/dev_kadai_cheese-academy/img/course_01.jpg" alt="">
-        
-        <h3>本格的な農園を使った実地研修</h3> 
-        <p>
-            チーズアカデミーでは、本格的な農園を使った実地研修を<br>
-            行うことができます。プロとして活躍するチーズ職人も<br>
-            使用するような、広大で環境も整った農園を余すところ<br>
-            なく使い、卒業時には本格的なチーズを自分の力で作れる<br>
-            実践力の養成を目指します。
-        </p>
-        
-        <img src="/Users/user/Desktop/gs-dev22/dev_kadai_cheese-academy/img/course_02.jpg" alt="">
-        
-        <img src="/Users/user/Desktop/gs-dev22/dev_kadai_cheese-academy/img/course_03.jpg" alt="">
+        <div class="course__wrapper">
+          <div class="course__items">
+            <p>未経験からでもスタートができるよう、カリキュラムは多くの専門家や<br>現役チーズ職人のアドバイスのもと、作られました。</p>
+          </div>
 
-        <h3>必要な知識もしっかりと取得</h3> 
-        <p>
-            チーズ作りには、しっかりとした食に関する知識が<br>
-            欠かせません。チーズアカデミーでは、一流講師陣による、<br>
-            チーズ作りに必要ないろはを余すところなく学べます。<br>
-            チーズそのものでなく、栄養学全般を学ぶことも<br>
-            可能ですので、チーズ以外への展開も夢ではないでしょう。<br>
-        </p>
-        
-        <h3>卒業制作はティスティング審査あり</h3> 
-        <p>
-            チーズアカデミーでは最後の2ヶ月間で卒業制作を実施。<br>
-            卒業制作として、チーズ作りを実際に行います。卒業後、<br>
-            一般参加によるティスティング審査があるため、作り手の<br>
-            目線だけでなく、消費者の目線から、卒業制作作品としての<br>
-            チーズを、しっかりと評価いただくことができます。<br>
-        </p>
+          <div class="course__items">
+            <img src="/Users/user/Desktop/gs-dev22/dev_kadai_cheese-academy/img/course_01.jpg" alt="">
+          </div>
+          
+          <div class="course__items">
+            <h3>本格的な農園を使った実地研修</h3> 
+            <p>
+                チーズアカデミーでは、本格的な農園を使った実地研修を<br>
+                行うことができます。プロとして活躍するチーズ職人も<br>
+                使用するような、広大で環境も整った農園を余すところ<br>
+                なく使い、卒業時には本格的なチーズを自分の力で作れる<br>
+                実践力の養成を目指します。
+            </p>
+          </div>
+          
+          <div class="course__items">
+            <img src="/Users/user/Desktop/gs-dev22/dev_kadai_cheese-academy/img/course_02.jpg" alt="">
+          </div>
+          
+          <div class="course__items">
+            <img src="/Users/user/Desktop/gs-dev22/dev_kadai_cheese-academy/img/course_03.jpg" alt="">
+          </div>
+          
+          <div class="course__items">
+            <h3>必要な知識もしっかりと取得</h3> 
+            <p>
+                チーズ作りには、しっかりとした食に関する知識が<br>
+                欠かせません。チーズアカデミーでは、一流講師陣による、<br>
+                チーズ作りに必要ないろはを余すところなく学べます。<br>
+                チーズそのものでなく、栄養学全般を学ぶことも<br>
+                可能ですので、チーズ以外への展開も夢ではないでしょう。<br>
+            </p>
+          </div>
+          
+          <div class="course__items">
+            <h3>卒業制作はティスティング審査あり</h3> 
+            <p>
+                チーズアカデミーでは最後の2ヶ月間で卒業制作を実施。<br>
+                卒業制作として、チーズ作りを実際に行います。卒業後、<br>
+                一般参加によるティスティング審査があるため、作り手の<br>
+                目線だけでなく、消費者の目線から、卒業制作作品としての<br>
+                チーズを、しっかりと評価いただくことができます。<br>
+            </p>
+          </div>
+
+          <div class="course__items">
+
+          </div>
+
+
+        </div>
           
       </section>
 
       <section>
-        <h2 class="section-title" id="news">NEWS</h2> 
-        
-        <li>
-          <img src="/Users/user/Desktop/gs-dev22/dev_kadai_cheese-academy/img/news_img.jpg" alt="ピザの画像">
-          <h3>2016/11/18</h3> 
-          <p>
-            チーズアカデミー卒業生のコスゲさんによる
-            チーズだけをふんだんに使用した話題のピザ屋
-            「Kosuge Pizza」が渋谷でオープンしました！
-          </p>
-        </li>
+        <div class="news-wrapper">
+          <h2 class="section-title" id="news">NEWS</h2> 
+          <div class="news__content">
+            <div class="content__wrapper content__hover">
+              <a href="#">
+                <img src="/Users/user/Desktop/gs-dev22/dev_kadai_cheese-academy/img/news_img.jpg" alt="ピザの画像">
+                <h3 class="content__date">2016/11/18</h3> 
+                <p>
+                  チーズアカデミー卒業生のコスゲさんによる
+                  チーズだけをふんだんに使用した話題のピザ屋
+                  「Kosuge Pizza」が渋谷でオープンしました！
+                </p>
+              </a>
+            </div>
 
-        
-        <li>
-          <img src="/Users/user/Desktop/gs-dev22/dev_kadai_cheese-academy/img/news_img.jpg" alt="ピザの画像">
-          <h3>2016/11/18</h3> 
-          <p>
-            チーズアカデミー卒業生のコスゲさんによる
-            チーズだけをふんだんに使用した話題のピザ屋
-            「Kosuge Pizza」が渋谷でオープンしました！
-          </p>
-        </li>
+            
+            <div class="content__wrapper content__hover">
+              <a href="#">
+                <img src="/Users/user/Desktop/gs-dev22/dev_kadai_cheese-academy/img/news_img.jpg" alt="ピザの画像">
+                <h3 class="content__date">2016/11/18</h3> 
+                <p>
+                  チーズアカデミー卒業生のコスゲさんによる
+                  チーズだけをふんだんに使用した話題のピザ屋
+                  「Kosuge Pizza」が渋谷でオープンしました！
+                </p>
+              </a>
+            </div>
 
-        
-        <li>
-          <img src="/Users/user/Desktop/gs-dev22/dev_kadai_cheese-academy/img/news_img.jpg" alt="ピザの画像">
-          <h3>2016/11/18</h3> 
-          <p>
-            チーズアカデミー卒業生のコスゲさんによる
-            チーズだけをふんだんに使用した話題のピザ屋
-            「Kosuge Pizza」が渋谷でオープンしました！
-          </p>
-        </li>
-        
-        <a href="#" target="_blank">MORE</a>
-
+            
+            <div class="content__wrapper content__hover">
+              <a href="#">
+                <img src="/Users/user/Desktop/gs-dev22/dev_kadai_cheese-academy/img/news_img.jpg" alt="ピザの画像">
+                <h3 class="content__date">2016/11/18</h3> 
+                <p>
+                  チーズアカデミー卒業生のコスゲさんによる
+                  チーズだけをふんだんに使用した話題のピザ屋
+                  「Kosuge Pizza」が渋谷でオープンしました！
+                </p>
+              </a>
+            </div>
+          </div>
+          <div class="btn">
+            <a href="#" target="_blank">MORE</a>
+          </div>
+        </div>
       </section>
 
       <section>

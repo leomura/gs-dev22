@@ -36,14 +36,42 @@ img{
  }
 
 /* header */
+.header__wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  height: 121px;
+  width: 70%;
+}
+
+h1>a{
+  display: block;
+}
+
+
 .nav-list{
   display: flex;
+  margin-right: 10px;
 }
 
 .nav-item{
   width: 33.3333%;
+  margin: 50px 0 50px 50px;
+  
 }
 
+.nav-item>a{
+  display: block;
+  text-decoration: none;
+  font-size: 21px;
+  color: black;
+}
+
+.title-images{
+  margin: auto;
+  text-align: center;
+}
 
 
 /* About */
@@ -77,6 +105,87 @@ img{
 .about__images{
   display: flex;
   justify-content: center;
+  
 }
 
 /* course */
+.course__wrapper{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+.course__items{
+  width: 50%;
+  margin: auto;
+  
+  
+  
+}
+
+/* News */
+.news-wrapper{
+  width: 945px;
+  margin: auto;
+  text-align: center;
+  padding: 60px 0 60px;
+}
+
+.news__content{
+  margin: 60px 0 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.content__wrapper{
+  width: 315px;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  line-height: 2;
+  padding: 15px;
+}
+
+.content__wrapper2{
+  width: 309px;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  line-height: 2;
+  padding: 3%;
+}
+
+.content__hover a{
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.content__hover:hover{
+  background-color:#EEEEEE;
+}
+
+
+.content__date{
+  margin: 30px 0 24px;
+  text-align: left;
+}
+
+.btn{
+  display: block;
+  background-color: #ffd61a ;
+  width: 300px;
+  margin: auto;
+  padding: 21px 0;
+}
+
+.btn a{
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  vertical-align: middle;
+}
+
+.btn:hover{
+  background-color: gray;
+}
