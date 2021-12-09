@@ -1,0 +1,57 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+h1{
+  text-align: center;
+  margin:5px 0;
+}
+
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.imgs1{
+    text-align: center;
+    line-height: 550px;
+}
+
+.imgs2{
+    flex-direction: column;
+    align-items: center;
+    line-height: 550px;
+}
+
+
+.container{
+  text-align: center;
+  width: 500px;
+  height: 500px;
+
+}
+
+.container_vs{
+    width: 200px;
+    height: 500px;
+    text-align: center;
+    line-height: 500px;
+}
