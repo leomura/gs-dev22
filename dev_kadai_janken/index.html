@@ -5,31 +5,48 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="stylesheet.css">
-  <title>じゃんけんアプリ</title>
+  <title>Janken App</title>
 </head>
 <body>
   <header>
-    <h1>じゃんけんアプリ</h1>
+    <h1>Janken App</h1>
   </header>
 
   <main>
     <!-- じゃんけんボタン -->
-    <button onclick="btnClick(0);">
-      グー
-    </button>
-    <button onclick="btnClick(1);">
-      チョキ
-    </button>
-    <button onclick="btnClick(2);">
-      パー
-    </button>
+    
+    <p class="question">What you want to choose??</p>  
+    <div class="btn_wrapper">
+        <table>
+          <tr>
+            <td>
+              <button onclick="btnClick(0);" class="btn">Rock</button>
+            </td>
+            <td>
+              <button onclick="btnClick(1);" class="btn">Scissor</button>
+            </td>          
+            <td>
+              <button onclick="btnClick(2);" class="btn">Paper</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    
 
     <!-- 結果 -->
-    <p><img id="x_img" src="imgs/janken_gu.png" alt=""></p>
-    <div id="x_result"></div>
-    
-    <p><img id="y_img" src="imgs/janken_choki.png" alt=""></p>
-    <div id="y_result"></div>
+     <div class="result_wrapper">
+      <div class="pc">
+        <p>Opponent</p>
+        <p><img id="x_img" src="imgs/janken_Rock.png" alt=""></p>
+        <div id="x_result"></div>
+      </div>
+
+      <div class="player">
+        <p>You</p>
+        <p><img id="y_img" src="imgs/janken_Rock.png" alt=""></p>
+        <div id="y_result"></div>
+      </div>
+    </div>
 
     <div id="result"></div>
   </main>

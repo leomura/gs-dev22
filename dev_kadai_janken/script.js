@@ -1,7 +1,7 @@
 
 // 最初にじゃんけんの定義
-let x_janken = ['gu', 'choki', 'pa'];
-let y_janken = ['gu', 'choki', 'pa'];
+let x_janken = ['Rock', 'Scissor', 'Paper'];
+let y_janken = ['Rock', 'Scissor', 'Paper'];
 
 // クリックしたら以下の関数が動き出す
 function btnClick(y_value){
@@ -11,22 +11,22 @@ function btnClick(y_value){
 
   // 次に、それらの乱数で勝敗を決める
   if (x_ran === y_value){
-    result = "あいこ";
+    result = "Draw" + "<br>" + "Let's try again!!";
   }else if(x_ran === 0 && y_value === 1) {
-    result = "負け";
+    result = "Lose" + "<br>" + "Let's try again!!";
   }else if(x_ran === 1 && y_value === 2) {
-      result = "負け";
+      result = "Lose" + "<br>" + "Let's try again!!";
   }else if(x_ran === 2 &&  y_value === 0) {
-      result = "負け";
+      result = "Lose" + "<br>" + "Let's try again!!";
   }else {
-      result = "勝ち";
+      result = "WIN" + "<br>" + "Congrats!!";
   }
   // そして、最後に配列から結果をとってくる、
-  document.getElementById("x_result").innerHTML = "相手は" + x_janken[x_ran] + "を出した";
+  document.getElementById("x_result").innerHTML = "They choose " + x_janken[x_ran];
 
-  document.getElementById("y_result").innerHTML = "あなたは" + y_janken[y_value] + "を出した";
+  document.getElementById("y_result").innerHTML = "You choose " + y_janken[y_value];
 
-  document.getElementById("result").innerHTML = "なので結果は、あなたの" + result;
+  document.getElementById("result").innerHTML = "You " + result;
 
   // ついでに画像も差し込んでやる
   document.getElementById("x_img").src = "imgs/janken_" + x_janken[x_ran] + ".png";
