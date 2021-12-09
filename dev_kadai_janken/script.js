@@ -29,9 +29,9 @@ function btnClick(y_value){
   document.getElementById("result").innerHTML = "なので結果は、あなたの" + result;
 
   // ついでに画像も差し込んでやる
-  document.getElementById("x_img").src = "janken_" + x_janken[x_ran] + ".png";
+  document.getElementById("x_img").src = "imgs/janken_" + x_janken[x_ran] + ".png";
 
-  document.getElementById("y_img").src = "janken_" + y_janken[y_value] + ".png";
+  document.getElementById("y_img").src = "imgs/janken_" + y_janken[y_value] + ".png";
 
 
 }
