@@ -22,7 +22,7 @@ function btnClick(y_value){
       result = "WIN" + "<br>" + "Congrats!!";
   }
   // そして、最後に配列から結果をとってくる、
-  document.getElementById("x_result").innerHTML = "They choose " + x_janken[x_ran];
+  document.getElementById("x_result").innerHTML = "She choose " + x_janken[x_ran];
 
   document.getElementById("y_result").innerHTML = "You choose " + y_janken[y_value];
 
