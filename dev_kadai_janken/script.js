@@ -21,6 +21,8 @@ function btnClick(y_value){
   }else {
       result = "WIN" + "<br>" + "Congrats!!";
   }
+
+  
   // そして、最後に配列から結果をとってくる、
   document.getElementById("x_result").innerHTML = "She chooses " + x_janken[x_ran];
 
